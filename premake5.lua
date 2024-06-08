@@ -36,7 +36,7 @@ project "yaml-cpp"
 
 	filter "system:macosx"
 		cppdialect "c++20"
-		staticruntime "On"
+		staticruntime "off"
 
 	filter "configurations:Debug"
 		runtime "Debug"
